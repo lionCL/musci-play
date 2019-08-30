@@ -37,6 +37,7 @@ a {
   height: 100%;
   outline: none;
   box-shadow: 0 0 1px gray;
+  cursor: pointer;
 }
 #player .search button span {
   font-size: 30px;
@@ -97,7 +98,8 @@ a {
 .player {
   display: flex;
 }
-.player h3,ul {
+.player h3,
+ul {
   margin: 0;
   list-style: none;
   padding: 0;
@@ -136,19 +138,19 @@ a {
 }
 .player .right .singer,
 .player .right .album {
-  color:#999999;
+  color: #999999;
   font-size: 13px;
   margin-top: 15px;
 }
 .player .right .singer span,
 .player .right .album span {
   font-size: 14px;
-  color:#0c73c2;
+  color: #0c73c2;
 }
 
 .player .right .audio {
   width: 100%;
-  margin-top:15px;
+  margin-top: 15px;
 }
 .player .right .lyric-container {
 }
@@ -171,7 +173,7 @@ a {
   background-color: #f7f7f7;
 }
 
-.result-wrapper .song:hover{
+.result-wrapper .song:hover {
   background-color: #f2f2f2;
   border-color: #e1e1e1;
 }
@@ -197,28 +199,28 @@ a {
 .result-wrapper .song .time {
   flex: 1;
 }
-.result-wrapper .song .icon-editmedia{
-  color:#b50b0c;
+.result-wrapper .song .icon-editmedia {
+  color: #b50b0c;
 }
-.video{
+.video {
 }
-.video .title-wrapper{
+.video .title-wrapper {
   margin-bottom: 10px;
 }
-.video .title-wrapper .tag{
-  padding:0 5px;
-  color:#e77077;
+.video .title-wrapper .tag {
+  padding: 0 5px;
+  color: #e77077;
   border: 1px solid #e77077;
 }
-.video .title-wrapper .title{
+.video .title-wrapper .title {
   font-size: 28px;
   margin-right: 10px;
 }
-.video .title-wrapper .artist{
-  color:#0c73c2;
+.video .title-wrapper .artist {
+  color: #0c73c2;
   font-size: 13px;
 }
-.video video{
+.video video {
   width: 650px;
 }
 
@@ -247,10 +249,10 @@ a {
   font-size: 13px;
 }
 .comment-wrapper .items .item .right .top .user {
-  color:#348acc;
+  color: #348acc;
 }
 .comment-wrapper .items .item .right .top .content {
-  color:#333333;
+  color: #333333;
 }
 .comment-wrapper .items .item .right .bottom {
   margin-top: 20px;
@@ -259,10 +261,10 @@ a {
 }
 .comment-wrapper .items .item .right .bottom .time {
   font-size: 13px;
-  color:#999999;
+  color: #999999;
 }
 .comment-wrapper .items .item .right .bottom .like-wrapper {
-  color:#333333;
+  color: #333333;
   font-size: 13px;
   cursor: pointer;
 }
